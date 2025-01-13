@@ -18,7 +18,8 @@
         }
 
         body {
-           
+            margin: 0px;
+            padding: 0px;
             min-width: 500px;
             font-family: Arial, Helvetica, sans-serif;
             color: white;
@@ -67,6 +68,27 @@
 
         a {
             color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin-left: 25px;
+           
+            
+        }
+
+       nav > a:hover {
+            color: var(--cor1);
+            text-decoration: none;
+            font-size: 1em;
+            margin-left: 25px;
+           
+            
+        }
+
+     
+
+
+        button > a:hover  {
+            color: gray;
             text-decoration: none;
             font-size: 1.8em;
             margin-left: 25px;
@@ -124,6 +146,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+
 
         h1 {     
            
@@ -203,7 +227,7 @@
     
     <header>
         <a href="">
-            <img src="images/menu.png" alt="menu">
+            <img src="images/menu.png" alt="menu" id="menu">
         </a>
 
         <a href="">
